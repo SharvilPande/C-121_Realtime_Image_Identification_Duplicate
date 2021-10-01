@@ -1,0 +1,66 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 25px;
+    height: 250px;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    height: 125px;
+    text-decoration: underline;
+    text-shadow: 8px 8px 15px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px !important;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .copy_right_footer {
+    line-height: 4; 
+    background-color: firebrick;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 15px !important;
+  }
+
+  canvas {
+    border: 2px ridge blue;
+    animation-name: box-shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes box-shadow {
+     from {box-shadow: 8px 8px 15px rgb(66, 206, 66)}
+     to {box-shadow: 8px 8px 15px yellow;}
+  }
+
+  .object, .accuracy {
+     background-color: teal;
+     color: whitesmoke;
+     width: 100px;
+     border-radius: 20px;
+     padding: 1px;
+  }
+
+  #h3 { 
+    font-weight: bold !important;
+  }
+
